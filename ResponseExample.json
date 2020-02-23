@@ -1,0 +1,32 @@
+{
+    "query": "open the order of mountain bike",
+    "prediction": {
+      "normalizedQuery": "open the order of mountain bike",
+      "topIntent": "Open Order",
+      "intents": {
+        "Open Order": {
+          "score": 0.999999344
+        }
+      },
+      "entities": {
+        "Output item name": [
+          "mountain bike"
+        ],
+        "$instance": {
+          "Output item name": [
+            {
+              "type": "Output item name",
+              "text": "mountain bike",
+              "startIndex": 18,
+              "length": 13,
+              "modelTypeId": 7,
+              "modelType": "Pattern.Any Entity Extractor",
+              "recognitionSources": [
+                "model"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
